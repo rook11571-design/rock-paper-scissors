@@ -20,7 +20,7 @@ playRound = () => {
   console.log(humanChoice);
   console.log(computerChoice);
   if (humanChoice == computerChoice) {
-    console.log();
+    console.log('Tie!');
   } else if (
     (humanChoice == "rock" && computerChoice == "scissors") ||
     (humanChoice == "paper" && computerChoice == "rock") ||
