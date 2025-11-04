@@ -38,13 +38,13 @@ for (let i = 0; i < 5; i++) {
   playRound();
 }
 if(humanScore>computerScore){
-    console.log("Human is the winner!");
+    console.log(`Human is the winner! The human scores ${humanScore} and the computer scores ${computerScore}.`);
 }
 else if(humanScore<computerScore){
-    console.log("Computer is the winner!");
+    console.log(`Computer is the winner! The human scores ${humanScore} and the computer scores ${computerScore}.`);
 }
 else{
-    console.log("It is a tie!");
+    console.log(`It is a tie!The human scores ${humanScore} and the computer scores ${computerScore}.`);
 }
 }
 playGame();
